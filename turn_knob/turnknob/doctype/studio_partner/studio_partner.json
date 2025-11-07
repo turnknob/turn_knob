@@ -1,0 +1,146 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "SPID-.#####",
+ "creation": "2025-10-08 15:36:03.765294",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "studio_brand_name_section",
+  "studio_brand_name",
+  "studio_owner_details_section",
+  "first_name",
+  "last_name",
+  "column_break_pxfa",
+  "email_id",
+  "mobile_number",
+  "partner_status_section",
+  "is_active",
+  "is_blacklisted",
+  "property_details_section",
+  "list_of_properties"
+ ],
+ "fields": [
+  {
+   "fieldname": "mobile_number",
+   "fieldtype": "Phone",
+   "in_list_view": 1,
+   "label": "Mobile Number",
+   "reqd": 1
+  },
+  {
+   "fieldname": "email_id",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Email ID",
+   "options": "Email",
+   "reqd": 1
+  },
+  {
+   "fieldname": "studio_owner_details_section",
+   "fieldtype": "Section Break",
+   "label": "Studio Owner Details"
+  },
+  {
+   "fieldname": "first_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "First Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_pxfa",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "last_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Last Name",
+   "reqd": 1
+  },
+  {
+   "default": "1",
+   "fieldname": "is_active",
+   "fieldtype": "Check",
+   "label": "Is Active?"
+  },
+  {
+   "default": "0",
+   "fieldname": "is_blacklisted",
+   "fieldtype": "Check",
+   "label": "Is Blacklisted?"
+  },
+  {
+   "fieldname": "property_details_section",
+   "fieldtype": "Section Break",
+   "label": "Property Details"
+  },
+  {
+   "fieldname": "list_of_properties",
+   "fieldtype": "Table",
+   "label": "List of Properties",
+   "options": "Studio Property Detail"
+  },
+  {
+   "fieldname": "partner_status_section",
+   "fieldtype": "Section Break",
+   "label": "Status"
+  },
+  {
+   "fieldname": "studio_brand_name_section",
+   "fieldtype": "Section Break",
+   "label": "Studio Brand Name"
+  },
+  {
+   "fieldname": "studio_brand_name",
+   "fieldtype": "Data",
+   "in_filter": 1,
+   "in_global_search": 1,
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Studio Brand Name",
+   "reqd": 1
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [
+  {
+   "link_doctype": "Studio Property",
+   "link_fieldname": "studio_partner_id"
+  },
+  {
+   "link_doctype": "Studio Room",
+   "link_fieldname": "studio_partner_id"
+  }
+ ],
+ "modified": "2025-10-20 05:25:20.781114",
+ "modified_by": "Administrator",
+ "module": "turnKnob",
+ "name": "Studio Partner",
+ "naming_rule": "By \"Naming Series\" field",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "show_title_field_in_link": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "studio_brand_name"
+}

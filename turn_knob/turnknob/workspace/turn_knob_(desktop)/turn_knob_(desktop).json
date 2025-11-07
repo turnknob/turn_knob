@@ -1,0 +1,276 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"WyAN1XwBMq\",\"type\":\"custom_block\",\"data\":{\"custom_block_name\":\"Heading Analytics\",\"col\":12}},{\"id\":\"VEG9hwu27K\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Studio Partners\",\"col\":3}},{\"id\":\"WdeV_Xtg5d\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Studio Property\",\"col\":4}},{\"id\":\"RJ2VpxuIwU\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Studio Listings\",\"col\":4}},{\"id\":\"neJSiAW45H\",\"type\":\"custom_block\",\"data\":{\"custom_block_name\":\"Doctype Block\",\"col\":12}},{\"id\":\"IQOzaLfP2L\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Studio Partner</b></span>\",\"col\":3}},{\"id\":\"SA6JroZ3Of\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Studio Property</b></span>\",\"col\":3}},{\"id\":\"twpSw3JQ4m\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Studio Room</b></span>\",\"col\":3}},{\"id\":\"qAOU6bAYr8\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Others</b></span>\",\"col\":3}},{\"id\":\"pq4Yvg7vLQ\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Create Studio Partner\",\"col\":3}},{\"id\":\"rW1A-C2xK3\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Create Studio Property\",\"col\":3}},{\"id\":\"a7sT22UQit\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Create Studio Room\",\"col\":3}},{\"id\":\"zMkQzLBSPs\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"View Amenity\",\"col\":3}},{\"id\":\"p-4b8AZZnV\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"View Studio Partner\",\"col\":3}},{\"id\":\"2INxQ3WNi9\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"View Studio Property\",\"col\":3}},{\"id\":\"H_O0F4RVzL\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"View Studio Room\",\"col\":3}},{\"id\":\"TSBIUiAfWr\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"View Category\",\"col\":3}},{\"id\":\"zZAXCvsNH7\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"kN0ryX2iQg\",\"type\":\"custom_block\",\"data\":{\"custom_block_name\":\"Heading Manage Equipments\",\"col\":12}},{\"id\":\"aPDxW9jvAF\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Microphone</b></span>\",\"col\":3}},{\"id\":\"bF0wPzIFw-\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Preamps</b></span>\",\"col\":3}},{\"id\":\"mliCJdTS12\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Audio Interface</b></span>\",\"col\":3}},{\"id\":\"88gKJB8e72\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>DAW</b></span>\",\"col\":3}},{\"id\":\"ZBul-1fWJ_\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Create Microphone\",\"col\":3}},{\"id\":\"WI1u35L6GJ\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Create Preamp\",\"col\":3}},{\"id\":\"Dmt7uz68UF\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Create Audio Interface\",\"col\":3}},{\"id\":\"EA3N5W1S5P\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Create DAW\",\"col\":3}},{\"id\":\"tNNnEC1MD9\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"View Microphone\",\"col\":3}},{\"id\":\"lHqOMjtPqQ\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"View Preamp\",\"col\":3}},{\"id\":\"7UDVlrWrEb\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"View Audio Interface\",\"col\":3}},{\"id\":\"7X7j3I1E-r\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"View DAW\",\"col\":3}},{\"id\":\"CsdlU4Ge5A\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"p_eYxkYNee\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Monitor</b></span>\",\"col\":3}},{\"id\":\"hFGUNbkzSs\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Headphone/IEM</b></span>\",\"col\":3}},{\"id\":\"nXpKaLhFgj\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Mixer/Summing</b></span>\",\"col\":3}},{\"id\":\"u1UTREVf6q\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>EQ Unit</b></span>\",\"col\":3}},{\"id\":\"yUkbnK_fWa\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Create Monitor\",\"col\":3}},{\"id\":\"EXgBEqpA4A\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Create Headphone/IEM\",\"col\":3}},{\"id\":\"d6KieBzJAS\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Create Mixer\",\"col\":3}},{\"id\":\"rv83qjy1qR\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Create EQ Unit\",\"col\":3}},{\"id\":\"t7YEC4I6Oa\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"View Monitor\",\"col\":3}},{\"id\":\"DA2Fm_XVSf\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"View Headphone/IEM\",\"col\":3}},{\"id\":\"_BW9_rGFEn\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"View Mixer\",\"col\":3}},{\"id\":\"7X-W_MTeaV\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"View EQ Unit\",\"col\":3}},{\"id\":\"rKZ6z25vjl\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"X3g8NZ9zh0\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Stands</b></span>\",\"col\":3}},{\"id\":\"uHgzZo0Mwv\",\"type\":\"spacer\",\"data\":{\"col\":9}},{\"id\":\"iTj1eAlTmE\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Create Stand\",\"col\":3}},{\"id\":\"WMTafpMpPL\",\"type\":\"spacer\",\"data\":{\"col\":9}},{\"id\":\"VM4iZbmvfN\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"View Stand\",\"col\":3}}]",
+ "creation": "2025-10-09 17:51:37.963809",
+ "custom_blocks": [
+  {
+   "custom_block_name": "Heading Analytics",
+   "label": "Heading Analytics"
+  },
+  {
+   "custom_block_name": "Heading Manage Studios",
+   "label": "Doctype Block"
+  },
+  {
+   "custom_block_name": "Heading Manage Equipments",
+   "label": "Heading Manage Equipments"
+  }
+ ],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "kanban",
+ "idx": 0,
+ "indicator_color": "",
+ "is_hidden": 0,
+ "label": "Turn Knob (Desktop)",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "List Studio Partner",
+   "link_count": 0,
+   "link_to": "Studio Partner",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2025-10-19 23:44:43.752440",
+ "modified_by": "Administrator",
+ "module": "turnKnob",
+ "name": "Turn Knob (Desktop)",
+ "number_cards": [
+  {
+   "label": "Studio Partners",
+   "number_card_name": "Studio Partner Count"
+  },
+  {
+   "label": "Studio Listings",
+   "number_card_name": "Studio Listings"
+  },
+  {
+   "label": "Studio Property",
+   "number_card_name": "Studio Property"
+  }
+ ],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 1.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "format": "{}",
+   "label": "View Studio Partner",
+   "link_to": "Studio Partner",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "New",
+   "label": "Create Microphone",
+   "link_to": "Equipment Microphone Item",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "New",
+   "label": "Create Monitor",
+   "link_to": "Equipment Monitor Item",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "View Amenity",
+   "link_to": "Studio Amenity",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "New",
+   "label": "Create Studio Property",
+   "link_to": "Studio Property",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "New",
+   "label": "Create Studio Room",
+   "link_to": "Studio Room",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "New",
+   "label": "Create Studio Partner",
+   "link_to": "Studio Partner",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "View Studio Room",
+   "link_to": "Studio Room",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "New",
+   "label": "Create Preamp",
+   "link_to": "Equipment Preamp Item",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "New",
+   "label": "Create Headphone/IEM",
+   "link_to": "Equipment Headphone IEM Item",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "View Category",
+   "link_to": "Studio Room Category",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "New",
+   "label": "Create Audio Interface",
+   "link_to": "Equipment Audio Interface Item",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "New",
+   "label": "Create Mixer",
+   "link_to": "Equipment Mixer Item",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "New",
+   "label": "Create Stand",
+   "link_to": "Equipment Stand Item",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "View Studio Property",
+   "link_to": "Studio Property",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "New",
+   "label": "Create DAW",
+   "link_to": "Equipment DAW Item",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "New",
+   "label": "Create EQ Unit",
+   "link_to": "Equipment EQ Unit Item",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "View Stand",
+   "link_to": "Equipment Stand Item",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "View Microphone",
+   "link_to": "Equipment Microphone Item",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "View Monitor",
+   "link_to": "Equipment Monitor Item",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "View Preamp",
+   "link_to": "Equipment Preamp Item",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "View Headphone/IEM",
+   "link_to": "Equipment Headphone IEM Item",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "View Audio Interface",
+   "link_to": "Equipment Audio Interface Item",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "View Mixer",
+   "link_to": "Equipment Mixer Item",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "View DAW",
+   "link_to": "Equipment DAW Item",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "View EQ Unit",
+   "link_to": "Equipment EQ Unit Item",
+   "stats_filter": "[]",
+   "type": "DocType"
+  }
+ ],
+ "title": "Turn Knob (Desktop)"
+}

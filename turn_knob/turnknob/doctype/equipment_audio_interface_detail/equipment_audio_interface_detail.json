@@ -1,0 +1,45 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-10-18 15:28:47.027732",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "name_of_audio_interface",
+  "quantity"
+ ],
+ "fields": [
+  {
+   "fieldname": "name_of_audio_interface",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Name of Audio Interface",
+   "options": "Equipment Audio Interface Item",
+   "reqd": 1
+  },
+  {
+   "fieldname": "quantity",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Quantity",
+   "non_negative": 1,
+   "reqd": 1
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-10-18 18:10:18.737698",
+ "modified_by": "Administrator",
+ "module": "turnKnob",
+ "name": "Equipment Audio Interface Detail",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

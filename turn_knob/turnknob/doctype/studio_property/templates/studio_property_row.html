@@ -1,0 +1,29 @@
+<!-- <div>
+	<a href="{{ doc.route }}">{{ doc.property_name }}</a>
+	<img src="{{doc.property_images}}" alt="">
+</div> -->
+<!-- this is a sample default list template -->
+ 
+<!-- property_list.html -->
+<div class="property-list" 
+     style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; padding: 1.5rem; justify-items: center;">
+
+	<!-- Property Card -->
+	<div class="property-card" 
+	     style="width: 100%; max-width: 280px; border: 1px solid #ddd; border-radius: 10px; overflow: hidden; background: #fff; 
+	            box-shadow: 0 1px 4px rgba(0,0,0,0.08); transition: transform 0.2s ease, box-shadow 0.2s ease;">
+		
+		<a href="{{ doc.route }}" style="text-decoration: none; color: inherit; display: block;">
+			<img src="{{ doc.property_images }}" 
+			     alt="{{ doc.property_name }}" 
+			     style="width: 100%; height: 140px; object-fit: cover;">
+
+			<div style="padding: 0.8rem;">
+				<h2 style="font-size: 1rem; font-weight: 600; margin-bottom: 0.3rem;">{{ doc.property_name }}</h2>
+				<p style="font-size: 0.85rem; color: #555; margin: 0.2rem 0;"><strong>Owner:</strong> {{ doc.studio_partner_id }}</p>
+				<p style="font-size: 0.8rem; color: #777; margin: 0.2rem 0;"><strong>Address:</strong> {{ doc.property_address }}</p>
+			</div>
+		</a>
+	</div>
+
+</div>
