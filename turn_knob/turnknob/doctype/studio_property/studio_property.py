@@ -6,6 +6,11 @@ from frappe.model.document import Document
 # from frappe.website.website_generator import WebsiteGenerator
 
 class StudioProperty(Document):
+
+	def before_save(self):
+		studio_partner_doc = frappe.get_doc("Studio Partner", self.studio_partner_id)
+		self.property_name = f"{studio_partner_doc.studio_brand_name} ({self.branch_name})"
+	
 	# Add Studio Property to the child table in "Studio Partner"
 	def after_insert(self): 
 		property_id = self.name

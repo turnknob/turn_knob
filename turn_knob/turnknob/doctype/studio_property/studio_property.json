@@ -12,10 +12,11 @@
   "column_break_iazk",
   "route",
   "rooms_in_property_section",
-  "property_name",
+  "branch_name",
   "property_address",
   "amenities",
   "column_break_sybp",
+  "property_name",
   "property_images",
   "location_on_map",
   "is_active",
@@ -77,10 +78,11 @@
    "options": "Studio Room Detail"
   },
   {
+   "description": "Visible to users on listing page",
    "fieldname": "property_name",
    "fieldtype": "Data",
    "label": "Property Name",
-   "reqd": 1
+   "read_only": 1
   },
   {
    "collapsible": 1,
@@ -148,6 +150,13 @@
    "fieldtype": "Data",
    "hidden": 1,
    "label": "Route"
+  },
+  {
+   "description": "Enter your branch/area name",
+   "fieldname": "branch_name",
+   "fieldtype": "Data",
+   "label": "Branch Name",
+   "reqd": 1
   }
  ],
  "grid_page_length": 50,
@@ -159,7 +168,7 @@
   }
  ],
  "make_attachments_public": 1,
- "modified": "2025-11-07 17:30:02.211256",
+ "modified": "2025-11-23 01:55:27.712894",
  "modified_by": "Administrator",
  "module": "turnKnob",
  "name": "Studio Property",
