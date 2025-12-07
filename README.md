@@ -2,7 +2,11 @@
 
 <img width="1920" height="1440" alt="turn-knob-workspace" src="https://github.com/user-attachments/assets/9913e0f1-f5e8-4b3b-a209-5dd21447048b" />
 
-TURN KNOB is a free, city-wide directory that helps artists effortlessly find and filter recording studios by gear, space, and vibe - all while giving studios a simple way to get discovered and fully booked.
+> [!WARNING]
+> This project is an MVP for internal users to onboard new studios (client facing pages are not yet implemented)
+
+
+turn knob is a studio marketplace that helps artists effortlessly find and filter recording studios by gear, space, vibe and what not — all while giving studios a simple way to be discovered and get fully booked.
 
 ### Installation
 
