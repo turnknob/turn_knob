@@ -21,7 +21,7 @@ frappe.ui.form.on("Studio Property", {
         }
 	},
     branch_name(frm) {
-        let studio_brand_name = frm.fields_dict['studio_partner_id'].disp_area.innerText;
-        frm.set_value("property_name", `${studio_brand_name} (${frm.doc.branch_name})`);
+        // let studio_brand_name = frm.fields_dict['studio_partner_id'].disp_area.innerText;
+        frm.set_value("property_name", `${frm.doc.studio_partner_name} (${frm.doc.branch_name})`);
     }
 });

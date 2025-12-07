@@ -2,6 +2,11 @@
 // For license information, please see license.txt
 
 frappe.ui.form.on("Studio Room", {
+    onload(frm) {        
+        if (frm.is_new()) {
+            frm.toggle_display("room_size_type", false);
+        }
+    }
     //     refresh(frm) {
     //     // Use frappe.is_mobile() to check the device type.
     //     const isMobile = frappe.is_mobile();

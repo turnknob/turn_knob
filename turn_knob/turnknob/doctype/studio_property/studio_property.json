@@ -10,6 +10,7 @@
   "hosting_partner_and_manager_details_section",
   "studio_partner_id",
   "column_break_iazk",
+  "studio_partner_name",
   "route",
   "rooms_in_property_section",
   "branch_name",
@@ -157,6 +158,14 @@
    "fieldtype": "Data",
    "label": "Branch Name",
    "reqd": 1
+  },
+  {
+   "fetch_from": "studio_partner_id.studio_brand_name",
+   "fieldname": "studio_partner_name",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "is_virtual": 1,
+   "label": "Studio Partner Name"
   }
  ],
  "grid_page_length": 50,
@@ -168,7 +177,7 @@
   }
  ],
  "make_attachments_public": 1,
- "modified": "2025-11-23 01:55:27.712894",
+ "modified": "2025-12-08 04:04:33.483392",
  "modified_by": "Administrator",
  "module": "turnKnob",
  "name": "Studio Property",
